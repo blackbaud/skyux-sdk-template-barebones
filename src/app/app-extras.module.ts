@@ -2,5 +2,13 @@ import {
   NgModule
 } from '@angular/core';
 
-@NgModule({})
+import {
+  AppSkyModule
+} from './app-sky.module';
+
+@NgModule({
+  exports: [
+    AppSkyModule
+  ]
+})
 export class AppExtrasModule { }
